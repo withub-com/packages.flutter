@@ -12,7 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
   epubx: #^3.0.0
-    path: ../../../epubx.dart
+#    path: ../../../epubx.dart
+    git: 
+      url: git@github.com:withub-com/epubx.dart.git
+      ref: dev
   equatable: ^2.0.3
   html: ^0.15.0
   flutter_html: ^3.0.0-alpha.3
